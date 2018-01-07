@@ -139,6 +139,7 @@ body{
 	color: #909090;
 	line-height: 67px;
 	margin-right: 19px;
+	cursor: pointer;
 }
 #more_course .more_courseRight h1.hot{
 	color: #8086db;
