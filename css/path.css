@@ -1,5 +1,5 @@
 
-.nav{
+.navs{
     width:100%;
     height:320px;
     background: url("../image/path/pathNav.png");
@@ -12,7 +12,7 @@
     height:100%;
     margin:0 auto;
 }
-.nav .contain .navText{
+.navs .contain .navText{
     width:646px;
     height:85px;
     position: absolute;
@@ -21,7 +21,7 @@
     right:0;
     margin:0 auto;
 }
-.nav .contain .navText .navItem {
+.navs .contain .navText .navItem {
     float: left;
     min-width: 200px;
     height:85px;
@@ -31,7 +31,7 @@
     text-align: center;
     box-sizing: border-box;
 }
-.nav .contain .navText .navItem.active {
+.navs .contain .navText .navItem.active {
     background-color: #fff;
     color:#000;
 }
@@ -46,7 +46,6 @@
     width:100%;
     height: 407px;
     margin-bottom: 30px;
-    background: #fff;
 }
 .main .contain .mainItem .title{
     width:100%;
