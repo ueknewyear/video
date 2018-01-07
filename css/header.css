@@ -100,7 +100,7 @@
 
 /* notice */
 #header .nav {
-    width: 460px;
+    width: 420px;
     height: 100%;
     line-height: 75px;
     display: flex;
@@ -110,7 +110,7 @@
 }
 
 #header .nav .list {
-    width: 85px;
+    width: 80px;
     height: 100%;
     position: relative;
     display: flex;
