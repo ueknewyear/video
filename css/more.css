@@ -196,7 +196,6 @@ body{
 	margin: auto;
 	opacity: 0;
 	transition: all 1s;
-
 }
 #more_course .more_courseBox li .more_switch::before{
 	content: "";
