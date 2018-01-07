@@ -144,7 +144,7 @@
     box-shadow: 0 0px 16px 0 rgba(7, 17, 27, 0.2);
 }
 .main .contain .mainItem .mainBox .courseBox .courseMain .courseList:hover ul{
-    min-height:288px;
+    /* min-height:288px; */
     height:auto;
 }
 .main .contain .mainItem .mainBox .courseBox .courseMain .courseList a {
@@ -155,6 +155,7 @@
     position: relative;
     background: #f8fafc;
     transition:1s;
+    min-height: 288px;
 }
 .main .contain .mainItem .mainBox .courseBox .courseMain .courseList a .num{
     position: absolute;
