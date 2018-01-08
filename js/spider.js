@@ -9,6 +9,6 @@ $(function(){
         // grabCursor: true
     });
     $('.close').on('click',function(){
-        $('.spider').css({display:'none'});
+         $('.spider').css({opacity:0,zIndex:-1});
     })
 });

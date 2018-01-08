@@ -1,4 +1,4 @@
-window.onload = function(){
+$(function(){
 	let parent=$(".index_test_btn>li");
 
 	let son = $(".index_test_list>ul");
@@ -55,4 +55,12 @@ window.onload = function(){
     progress(canvas2,background2,color2,60);
     progress(canvas3,background3,color3,56);
 
-}
+    var modules = $('.index_module_details');
+    var spider = $('.spider');
+    spider.css({opacity:0,zIndex:-1});
+    modules.on('click',function(){
+         spider.css({opacity:1,zIndex:9999});
+    })
+    
+
+})
